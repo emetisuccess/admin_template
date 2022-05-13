@@ -250,6 +250,7 @@ function ganttChart() {
 
         var options = {
             height: 400,
+            width: "100%",
             gantt: {
                 trackHeight: 30
             }
