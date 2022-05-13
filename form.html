@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Html Admin - Bootstrap Admin Template</title>
+
+        <!-- Bootstrap Core CSS -->
+        <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/sb-admin.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"
+            type="text/css">
+        <!-- google chart loader -->
+        <script type="text/javascript"
+            src="https://www.gstatic.com/charts/loader.js"></script>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <nav class="navbar navbar-inverse navbar-fixed-top"
+                role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Logo</a>
+                </div>
+                <!-- Top Menu Items -->
+                <ul class="nav navbar-right top-nav">
+                    <li><a href="#">Home Site</a></li>
+                    <li><a href="#"> </a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle"
+                            data-toggle="dropdown"><i class="fa fa-bell"></i>
+                            Notification
+                            <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#"> Info1</a>
+                            </li>
+                            <li>
+                                <a href="#"> Info2</a>
+                            </li>
+                            <li>
+                                <a href="#"> Info3</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#"> Clear Info</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle"
+                            data-toggle="dropdown"><i class="fa fa-user"></i>
+                            Emeti Etim
+                            <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#"><i class="fa fa-fw fa-user"></i>
+                                    Link</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#"><i class="fa fa-fw fa-power-off"></i>
+                                    Link</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+
+                <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav side-nav">
+                        <li>
+                            <a href="#"> Menu</a>
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-fw
+                                    fa-dashboard"></i>
+                                Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-toggle="collapse"
+                                data-target="#posts_dropdown"><i
+                                    class="fa fa-apple"></i>
+                                Contact <i class="fa fa-fw fa-caret-down"></i></a>
+                            <ul id="posts_dropdown" class="collapse">
+                                <li>
+                                    <a href="#">link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="form.html"><i class="fa fa-fw fa-wrench"></i>
+                                Form</a>
+                        </li>
+                        <li class="">
+                            <a href="panel.html"><i class="fa fa-fw fa-file"></i>
+                                Panel</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-toggle="collapse"
+                                data-target="#demo"><i
+                                    class="fa fa-fw fa-user"></i>
+                                Advance Form <i class="fa fa-fw fa-caret-down"></i></a>
+                            <ul id="demo" class="collapse">
+                                <li>
+                                    <a href="form1.html">Form 1</a>
+                                </li>
+                                <li>
+                                    <a href="form2.html">Form 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="#"><i class="fa fa-fw fa-book"></i> Simple
+                                UI</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-toggle="collapse"
+                                data-target="#test"><i
+                                    class="fa fa-fw fa-user"></i>
+                                Charts <i class="fa fa-fw fa-caret-down"></i></a>
+                            <ul id="test" class="collapse">
+                                <li>
+                                    <a href="chart.html">Chart 1</a>
+                                </li>
+                                <li>
+                                    <a href="ganttchat.html">Ganttchat</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+            <div id="page-wrapper">
+                <div class="container-fluid">
+                    <!-- Page Heading -->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <h1 class="page-header text-danger">
+                                Welcome to admin
+                                <small>Emeti</small>
+                            </h1>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                    <div class="row my-4">
+                        <div class="col-md-8 justify-content-center">
+                            <form>
+                                <div class="form-group">
+                                    <label for="fname">Firstname</label>
+                                    <input type="text" name="fname"
+                                        id="fname" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="lname">Lastname</label>
+                                    <input type="text" name="lname"
+                                        id="lname" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email"
+                                        id="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="tel">Phone Number</label>
+                                    <input type="tel" name="phone"
+                                        id="phone" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" name="submit"
+                                        id="submit" class="btn btn-info">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#wrapper -->
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Core JavaScript -->
+        <script src="js/javascript.js"></script>
+    </body>
+
+</html>
