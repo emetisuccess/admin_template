@@ -6563,6 +6563,11 @@ a.list-group-item-danger.active:focus {
   margin-bottom: 0;
 }
 
+.my-3 {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
 .panel>.table caption,
 .panel>.table-responsive>.table caption,
 .panel>.panel-collapse>.table caption {
